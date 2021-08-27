@@ -1,10 +1,18 @@
-# Getting Started with Create React App
+# React Boilerplate
+
+This is a boilerplate for a single page react application using tailwind CSS.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Added:
 - Craco: To override the PostCSS configuration natively
 - Tailwind CSS: Easier styling
+- Scaffolding to get started
+
+Still to come:
+- Completed bolierplate layout and file structure
 
 ## Available Scripts
 
@@ -48,6 +56,8 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+To learn Tailwind CSS, check out the [Tailwind documentation](https://tailwindcss.com/docs).
 
 ### Code Splitting
 
