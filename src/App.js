@@ -1,26 +1,31 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Navigation from "./Navigation";
+import Header from "./Header"
 import Contact from "./Contact";
 import Other from "./Other";
+import Footer from "./Footer";
 
 function App() {
   return (
     <div className="">
       <Router>
-        <header className="">
-            <Navigation />
-        </header>
-        <Switch>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-        </Switch>
-        <Switch>
-          <Route path="/other">
-            <Other />
-          </Route>
-        </Switch>
-      </Router>
+        
+        <Header />
+
+          <Switch>
+            <Route path="/contact">
+              <Contact />
+            </Route>
+          </Switch>
+
+          <Switch>
+            <Route path="/other">
+              <Other />
+            </Route>
+          </Switch>
+
+          <Footer />
+
+        </Router>
     </div>
   );
 }
