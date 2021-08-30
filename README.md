@@ -12,7 +12,7 @@ Added:
 - Scaffolding to get started
 
 Still to come:
-- Completed bolierplate layout and file structure
+- Completed template layout and file structure
 
 ## Available Scripts
 
