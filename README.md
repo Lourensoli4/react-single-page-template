@@ -1,6 +1,6 @@
-# React Boilerplate
+# React Single-Page Application Template
 
-This is a boilerplate for a single-page react application using tailwind CSS.
+This is a template for a single-page react application using tailwind CSS.
 
 ## Getting Started with Create React App
 
